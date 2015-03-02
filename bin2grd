@@ -1,0 +1,11 @@
+#! /bin/csh -f
+#
+set base = $1
+set west = $2
+set east = $3
+set south = $4
+set north = $5
+#
+echo "xyz2grd $base -G$base.nc=ns -I30c -R$west/$east/$south/$north  -ZTLhw -F -V "
+#GMT xyz2grd $base.Bathymetry.srtm -G$base.nc=ns -I30c -R$west/$east/$south/$north  -ZTLhw -F -V 
+GMT xyz2grd $base -G$base.nc=ns -I30c -R$west/$east/$south/$north  -ZTLhw -F -V 
