@@ -13,8 +13,9 @@ This set of customizable scripts download and install NASA's World Wind Server, 
 
 ### Start
 
-Run the first script to download and install the NASA worldwind server software version 1.5.1. OpenJDK7 will be used as the JVM to run the service.
-- ./postinstall-14.04-WorldWindServer.sh
+Run the first script to download and install the NASA WorldWind Server software version 1.5.1. OpenJDK7 will be used as the JVM to run the service.
+- ./postinstall-14.04-WorldWindServer.sh OR
+- ./postinstall-14.04-WorldWindServer2.0.sh (for WorldWindServer version 2.0.0)
 
 Run the second script to download and install the Blue Marble geo-data maps
 - ./postinstall-14.04-WorldWindServer-bluemarble.sh
