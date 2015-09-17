@@ -1,4 +1,6 @@
 #!/bin/bash
+# script to convert srtm data for use in World Wind
+
 /usr/local/bin/bin2grd e020n40.Bathymetry.srtm  020  060 -10  40 
 /usr/local/bin/bin2grd e020n90.Bathymetry.srtm  020  060  40  90 
 /usr/local/bin/bin2grd e020s10.Bathymetry.srtm  020  060 -60 -10 
