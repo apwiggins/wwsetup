@@ -18,10 +18,10 @@ Run the first script to download and install the NASA WorldWind Server software 
 - ./postinstall-14.04-WorldWindServer2.0.sh (for WorldWindServer version 2.0.0)
 
 Run the second script to download and install the Blue Marble geo-data maps
-- ./postinstall-14.04-WorldWindServer-bluemarble.sh
+- ./postinstall-14.04-WorldWindServer-bluemarble.sh (1.5.1 only)
 
 Run the third script to download and install the SRTM elevation data
-- ./postinstall-14.04-WorldWindServer-SRTM.sh
+- ./postinstall-14.04-WorldWindServer-SRTM.sh (1.5.1 only)
 
 Finally, reboot the VM or hardware to do a clean start.
 
