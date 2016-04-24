@@ -1,4 +1,4 @@
-# World Wind Server Setup scripts
+# World Wind Server Setup install scripts
 
 This set of customizable scripts download and install NASA's World Wind Server, the Blue Marble maps, and the Shuttle Radar Topology Mission (SRTM) terrain elevation data.  These scripts were developed to fill a need to have a geo-data server for a lab that is not connected to the Internet.
 
