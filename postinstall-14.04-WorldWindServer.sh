@@ -44,7 +44,7 @@ fi
 
 # If missing file, then attempt to download from Internet
 if [ ! -f "$worldwindzip" ]; then
-	wget -P ~/Downloads http://builds.worldwind.arc.nasa.gov/worldwind-releases/1.5/builds/worldwind-1.5.1.zip
+	wget -P ~/Downloads wget https://github.com/NASAWorldWind/WorldWindJava/releases/download/v1.5.1/worldwind-1.5.1.zip
     if [ $? -ne 0 ]; then
         echo "$scriptname ERROR: downloading file! $worldwindzip"
         echo "$scriptname INFO: Terminated due to error!."
