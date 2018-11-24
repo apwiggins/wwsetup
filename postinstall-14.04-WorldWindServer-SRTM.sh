@@ -2,6 +2,11 @@
 
 scriptname=`basename $0 .sh`
 
+sudo cp ./bin2grd /usr/local/bin
+sudo cp ./srtm-bin2grd.sh /usr/local/bin
+sudo chmod +x /usr/local/bin/bin2grd
+sudo chmod +x /usr/local/bin/srtm-bin2grd.sh
+
 # the bin2grd script requires the use of csh
 if ! which csh > /dev/null; then
    echo -e "Required command csh not found! Installing..."
@@ -164,11 +169,6 @@ if [ $? -ne 0 ]; then
     echo "$scriptname INFO: Terminating due to error."
     exit 1
 fi
-
-sudo cp ~/Subversion/itn/scripts/worldwindscripts/bin2grd /usr/local/bin
-sudo cp ~/Subversion/itn/scripts/worldwindscripts/srtm-bin2grd.sh /usr/local/bin
-sudo chmod +x /usr/local/bin/bin2grd
-sudo chmod +x /usr/local/bin/srtm-bin2grd.sh
 
 # convert srtm files to gtif format for the Digital Elevation Map (DEM)
 # each tile has a geo location which is added by the script commands below
