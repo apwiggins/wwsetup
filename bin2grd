@@ -6,7 +6,8 @@ set east = $3
 set south = $4
 set north = $5
 
-# http://gmt.soest.hawaii.edu/doc/5.1.0/xyz2grd.html
+# http://gmt.soest.hawaii.edu -- moved to github
+# https://github.com/GenericMappingTools/gmt/blob/master/src/xyz2grd.c
 # xyz2grd - Convert data table to a grid file
 
 echo "xyz2grd $base -G$base.nc=ns -I30c -R$west/$east/$south/$north  -ZTLhw -F -V "
